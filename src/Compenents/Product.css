@@ -1,0 +1,26 @@
+
+.card{
+
+   margin-top: 40px;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img-top:hover{
+    transform: scale(1.5);
+}
+
+.card-img-top{
+    transform: scale(1);
+    transition: transform 0.8s ease;
+}
+
+.overflow{
+
+    overflow: hidden;
+}
+
+
+
