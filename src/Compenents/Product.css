@@ -2,6 +2,7 @@
 .card{
 
    margin-top: 40px;
+
 }
 
 .card:hover{
@@ -14,7 +15,7 @@
 
 .card-img-top{
     transform: scale(1);
-    transition: transform 0.8s ease;
+    transition: transform 0.6s ease;
 }
 
 .overflow{
