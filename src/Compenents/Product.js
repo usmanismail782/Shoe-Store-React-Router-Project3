@@ -5,8 +5,10 @@ import {ItemCard} from './itemCard'
 function Product() {
   
   return (
-      <div className= "container-fluid d-flex justify-content-center">
 
+    
+      <div className= "container-fluid d-flex justify-content-center">
+         
           <div className="row">
         
                   {Object.keys(Shoes).map( keyName => {

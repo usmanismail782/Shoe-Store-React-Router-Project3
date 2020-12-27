@@ -5,6 +5,27 @@
 
 }
 
+
+.cart-box{
+
+    display: inline;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(236, 239, 247);
+    height: 9in;
+    width: 35in;
+    padding: 10px;
+    margin-top: 30pt;
+    margin-right: 10pt;
+    border: 1px solid rgb(0, 0, 0);
+   
+
+ 
+ }
+
+
 .card:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

@@ -1,10 +1,15 @@
 
 import Route from './Route'
+import { GlobalProvider } from './context/GlobalState'
+
 function App() {
   return (
-    <div>
+
+    <GlobalProvider >
+    
      <Route />
-    </div>
+    
+    </GlobalProvider>
   );
 }
 
